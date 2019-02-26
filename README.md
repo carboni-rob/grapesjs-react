@@ -14,6 +14,7 @@ _The first integration of GrapesJS for React._
     
 2. Usage
 
+    - Class Component:
     ```javascript
     import React, {Component} from 'react';
     import GEditor from 'grapesjs-react';
@@ -27,6 +28,15 @@ _The first integration of GrapesJS for React._
     }
  
     export default GEditorExample;
+    ```
+    - Functional Component:
+    ```javascript
+    import React from 'react';
+    import GJSEditor from 'grapesjs-react';
+
+    export default function GrapesEditor() {
+      return <GJSEditor/>;
+    }
     ```
 
 3. Options
