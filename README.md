@@ -61,3 +61,7 @@ _The first integration of GrapesJS for React._
     ```bash
     yarn add grapesjs
     ```
+    OR
+    ```bash
+    npm install grapesjs
+    ```
