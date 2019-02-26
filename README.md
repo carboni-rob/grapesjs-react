@@ -34,8 +34,8 @@ _The first integration of GrapesJS for React._
     import React from 'react';
     import GJSEditor from 'grapesjs-react';
 
-    export default function GrapesEditor() {
-      return <GJSEditor/>;
+    export default function GEditorExample() {
+      return <GEditor/>;
     }
     ```
 
