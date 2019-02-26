@@ -3,8 +3,13 @@ GrapesJS React Integration
 _The first integration of GrapesJS for React._
 
 1. Installation
+    - YARN
     ```bash
     yarn add grapesjs-react
+    ```
+    - NPM
+    ```bash
+    $ npm install grapesjs-react
     ```
     
 2. Usage
