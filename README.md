@@ -25,11 +25,13 @@ _The first integration of GrapesJS for React._
     ```
 
 3. Options
-    | Props      | Description             | Type                    | Default Value |
-    |------------|-------------------------|-------------------------|---------------|
-    | components | Custom components       | Array<GComponent>       | Empty         |
-    | plugins    | Additional plugins      | Array<GPluginType>      | Empty         |
-    | newsletter | Apply newsletter preset | boolean                 | true          |
+The `<GEditor>` component accepts the following props:
+    - `newsletter` (boolean - DEFAULT: true): uses the `grapesjs-preset-newsletter` plugin
+    - `webpage` (boolean - DEFAULT: false): uses the `grapesjs-preset-webpage` plugin
+    - `form` (boolean - DEFAULT: true): whether or not to include the form components in the Block Manager
+    - `customCode` (boolean - DEFAULT: true): whether or not to include the Custom Code component in the Block Manager
+    - `storageManager` (object): the Storage Manager configuration object
+    - `blockManager` (object): the Block Manager configuration object
 
 * This package does not include CSS, so you have to import css from `grapesjs` package manually.
 
